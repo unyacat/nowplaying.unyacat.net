@@ -1,6 +1,6 @@
 export const authEndpoint: string = "https://accounts.spotify.com/authorize";
 
-const redirectUri: string = "http://localhost:3000/";
+const redirectUri: string = "https://nowplaying.unyacat.net/";
 
 const clientId: string = process.env.REACT_APP_CLIENT_ID as string;
 
