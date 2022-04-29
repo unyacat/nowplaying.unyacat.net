@@ -1,0 +1,29 @@
+body {
+  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  padding: 10%;
+}
+.App {
+  text-align: center;
+}
+
+button {
+  font-size: 18px;
+  border: none;
+  margin: 10px;
+  border-radius: 500px;
+  padding-block: 12px;
+  padding-inline: 32px;
+
+}
+
+
+button.login {
+  color: white;
+  background-color: #1db954;
+
+}
+
+button.tweet {
+  color: white;
+  background-color: #1D9BF0;
+}
