@@ -11,8 +11,13 @@ function App() {
     const token = getTokenFromUrl();
     window.location.hash = "";
 
+    if (localStorage.getItem("accessToken")) {
+      setAccessToken(localStorage.getItem("accessToken") as string)
+    }
+
     if (token) {
       setAccessToken(token)
+      localStorage.setItem("accessToken", token)
     }
 
   }, [])
