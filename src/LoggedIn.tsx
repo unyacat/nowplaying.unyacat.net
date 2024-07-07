@@ -43,6 +43,7 @@ function LoggedIn(props: any) {
       <h1> {nowPlayingSongText} </h1>
       <button onClick={getNowPlayingText} className="reacquisition">再取得</button>
       <button onClick={openTweetWindow} className="tweet">ツイート</button>
+      <h3> {nowPlayingSongText} - {nowPlayingSongURL} </h3>
     </div>
   )
 }
