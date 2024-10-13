@@ -44,6 +44,9 @@ function LoggedIn(props: any) {
       <button onClick={getNowPlayingText} className="reacquisition">再取得</button>
       <button onClick={openTweetWindow} className="tweet">ツイート</button>
       <h3> {nowPlayingSongText} - {nowPlayingSongURL} </h3>
+      <button onClick={() => navigator.clipboard.writeText(`${nowPlayingSongText} - ${nowPlayingSongURL}`)}>
+        Copy
+      </button>
     </div>
   )
 }
